@@ -1,0 +1,26 @@
+body {
+	margin: 0px !important;
+}
+
+div.clickToPlay {
+	display: flex;
+	justify-content: center;
+}
+
+video {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+	
+video.clickToPlay {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+	video.clickToPlay {
+		max-height: 320px !important;
+	}
+}
